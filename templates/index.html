@@ -64,7 +64,7 @@
 
     <div class="container">
       <h1>ZAS PDF merger- Your favorite pdf merger tool</h1>
-      <form>
+      <form method="post" action="/merge" enctype="multipart/form-data">
         <div class="form-group">
           <label for="exampleFormControlFile1"
             >Select pdf file you want to merge</label
@@ -75,6 +75,12 @@
             id="exampleFormControlFile1"
             multiple
             accept=".pdf"
+            name="pdfs"
+          />
+          <input
+            type="submit"
+            value="Submit"
+            class="btn btn-outline-success my-3"
           />
         </div>
       </form>
