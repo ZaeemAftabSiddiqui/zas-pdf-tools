@@ -3,16 +3,16 @@
 Welcome to the PDF Tools Website GitHub repository! This project provides a user-friendly web interface for manipulating PDF files.
 Features
 
- multiple PDF files to merge them into one
- Technologies
+multiple PDF files to merge them into one
+Technologies
 This website is built using the following technologies:
-•	HTML for creating the structure and content of web pages
-•	Bootstrap - responsive front-end framework for building mobile-friendly websites
-•	JavaScript for adding interactivity and dynamic functionality to web pages
-•	Node.js - JavaScript runtime for server-side development
-•	Express - web application framework for Node.js
+• HTML for creating the structure and content of web pages
+• Bootstrap - responsive front-end framework for building mobile-friendly websites
+• JavaScript for adding interactivity and dynamic functionality to web pages
+• Node.js - JavaScript runtime for server-side development
+• Express.js - web application framework for Node.js
 
- Requirements
+Requirements
 
     Node.js
     npm

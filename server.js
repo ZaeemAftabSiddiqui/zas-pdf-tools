@@ -11,6 +11,12 @@ const port = 3000;
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "templates/index.html"));
 });
+app.get("/about", (req, res) => {
+  res.sendFile(path.join(__dirname, "templates/about.html"));
+});
+app.get("/contact", (req, res) => {
+  res.sendFile(path.join(__dirname, "templates/contact.html"));
+});
 app.post("/merge", upload.array("pdfs", 2), async (req, res, next) => {
   console.log(req.files);
   let d = await mergePdfs(
