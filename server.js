@@ -1,9 +1,11 @@
 const express = require("express");
 const path = require("path");
+var favicon = require("serve-favicon");
 const multer = require("multer");
 const { mergePdfs } = require("./merge");
 const app = express();
 
+app.use(favicon(path.join(__dirname, "images", "favicon.ico")));
 const upload = multer({ dest: "uploads/" });
 app.use("/static", express.static("public"));
 const port = 3000;
